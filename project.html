@@ -349,40 +349,6 @@ var state = TW.cameraSetup(renderer,
                             miny: 30, maxy: 50,
                             minz: -30, maxz: 30}, 200);
 
-/*
-var cameraParams = {
-    near: 15,
-    far: 200,
-    fov: 100,
-    aspectRatio: 400.0/300.0,
-    atX: 0,
-    atY: 1,
-    atZ: 0,
-    eyeX: 60,
-    eyeY: 30,
-    eyeZ: 0,
-    upX: 0,
-    upY: 1,
-    upZ: 0
-};
-
-function setupCamera(cameraParams) {
-    var camera = new THREE.PerspectiveCamera(cameraParams.fov,
-                                             cameraParams.aspectRatio,
-                                             cameraParams.near,
-                                             cameraParams.far);
-    // set the camera location and orientation
-    camera.position.set(cameraParams.eyeX, cameraParams.eyeY, cameraParams.eyeZ);
-    camera.up.set(cameraParams.upX, cameraParams.upY, cameraParams.upZ);
-    camera.lookAt(new THREE.Vector3(cameraParams.atX, cameraParams.atY, cameraParams.atZ));
-    return camera;
-}
-
-var camera = setupCamera(cameraParams);
-scene.add(camera);
-renderer.render(scene, camera);
-*/
-
 var animationState;
 
 function makeBubble() {
