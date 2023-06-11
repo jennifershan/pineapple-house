@@ -12,18 +12,11 @@
       }
     </style>
 
-<script src="https://cs.wellesley.edu/~cs307/threejs/libs/three-r95.all.js">
-"https://cs.wellesley.edu/~cs307/threejs/libs/three-r80.min.js"
-</script>
-<script src="https://cs.wellesley.edu/~cs307/threejs/libs/OrbitControls-r95.js">
-"https://cs.wellesley.edu/~cs307/threejs/libs/OrbitControls.js"
-</script>
-<script src="https://cs.wellesley.edu/~cs307/threejs/libs/tw-sp21.js">
-"https://cs.wellesley.edu/~cs307/threejs/libs/tw-fa18.js"
-</script>
-<script src="https://cs.wellesley.edu/~cs307/lectures-s21/TubeGeometryNew.js"></script>
-<script src="https://cs.wellesley.edu/~cs307/lectures-s21/TubeRadialGeometry.js"></script>
-
+<script src="scripts/three-r95.all.js"></script>
+<script src="scripts/OrbitControls-r95.js"></script>
+<script src="scripts/tw-sp21.js"></script>
+<script src="scripts/TubeGeometryNew.js"></script>
+<script src="scripts/TubeRadialGeometry.js"></script>
 
 </head>
 <body>
@@ -294,9 +287,9 @@ function createRandomPlants(params){
 
 createRandomPlants(params);
 
-var bimage = 'backdrop.png';
-var pimage = 'pineapple.png';
-var simage = 'sand.png';
+var bimage = 'textures/backdrop.png';
+var pimage = 'textures/pineapple.png';
+var simage = 'textures/sand.png';
 var textures = [pimage, bimage, simage]
 
 function makeBackdrop(texture){
